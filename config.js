@@ -30,7 +30,7 @@ export const logo = <img src={`${LOGO_URL}`} alt="Logo" className="h-[85px] w-[1
 export const APP_NAME = 'The Beginning After The End';
 export const NavbarName = "The Beginning After The End";
 
-export const APP_DESCRIPTION = `Read ${MANGA_NAME} manga online at ${DOMAIN}.`
+export const APP_DESCRIPTION = `Read ${MANGA_NAME} manga online at ${DOMAIN}. It revolves around King Grey, who is reincarnated into a magical world as Arthur Leywin. With his past memories, Arthur navigates this new world, mastering magic, protecting his loved ones, and uncovering ancient secrets. The series blends action, adventure, and emotional depth, making it a thrilling read for fans of isekai and fantasy genres.`
 
 export const DISQUS_SHORTNAME = "my-cms-7";
 

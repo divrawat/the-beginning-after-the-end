@@ -30,9 +30,6 @@ export default function Home() {
 
 
   const genres = MANGA_GENRE.split(', ');
-  const currentDate = new Date();
-  const dateModified = new Date(currentDate.getTime() - (3 * 24 * 60 * 60 * 1000)).toISOString();
-  const datePublished = new Date(currentDate.getTime() - (4 * 24 * 60 * 60 * 1000)).toISOString();
 
 
   const schema =
@@ -59,8 +56,6 @@ export default function Home() {
         "url": `${LOGO_URL}`
       }
     },
-    "datePublished": datePublished,
-    "dateModified": dateModified
   }
 
   const head = () => (
