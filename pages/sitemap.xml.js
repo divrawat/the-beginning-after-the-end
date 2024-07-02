@@ -1,5 +1,6 @@
 import { DOMAIN, chaptersData, URL_PREFIX } from "../config";
 import { format } from 'date-fns';
+export const runtime = 'experimental-edge';
 
 const generateXmlSitemap = () => {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
